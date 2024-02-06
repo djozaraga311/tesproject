@@ -52,7 +52,7 @@ public class GenericInterfaceDemo {
         stringPrinter.printItem();
 
         // Create a Printer for Integer
-        Printer<IntegerPrintable> integerPrinter = new Printer<>(new IntegerPrintable(42));
+        Printer<IntegerPrintable> integerPrinter = new Printer<>(new IntegerPrintable(31));
         integerPrinter.printItem();
     }
 }
